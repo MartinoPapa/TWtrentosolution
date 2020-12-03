@@ -15,7 +15,7 @@ html{
   height: 100%;
 }
 body {
-  font-family: "Open Sans", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   top: 0;
   scroll-behavior: smooth;
   font-size: 62.5%;
@@ -163,11 +163,11 @@ svg {
   background-image: url("img/Team.jpg");
 }
 .slide:nth-child(1) .slide__overlay-path {
-  fill: #e99c7e;
+  fill: #33464b;
 }
 @media (max-width: 991px) {
   .slide:nth-child(1) .slide__text {
-    background-color: rgba(233, 156, 126, 0.8);
+    background-color:#33464bcc;
   }
 }
 .slide:nth-child(2) {
@@ -277,7 +277,7 @@ svg {
   }
 }
 .slide__text-heading {
-  font-family: "Polar", Helvetica, Arial, sans-serif;
+  font-family: Helvetica, Arial, sans-serif;
   font-size: 5rem;
   margin-bottom: 2rem;
 }
@@ -302,13 +302,18 @@ svg {
 }
 .slide__text-link {
   z-index: 5;
+  text-transform: none;
+  color: #fff;
   display: inline-block;
   position: relative;
   padding: 0.5rem;
   cursor: pointer;
   font-size: 2.3rem;
+  transition: all 0.2s;
+  text-decoration: underline;
   -webkit-perspective: 1000px;
           perspective: 1000px;
+
 
 }
 
@@ -318,26 +323,27 @@ svg {
     margin-top: 10px;
   }
 }
+
+/*
 .slide__text-link:before {
   z-index: -1;
   content: "";
   position: absolute;
-  top: 0;
+  top: 100%;
   left: 0;
   width: 100%;
-  height: 100%;
-  background: rgba(245, 245, 245, 0.698);
-  -webkit-transform-origin: 50% 100%;
-          transform-origin: 50% 100%;
-  -webkit-transform: rotateX(-85deg);
-          transform: rotateX(-85deg);
-  -webkit-transition: -webkit-transform 0.3s;
-  transition: -webkit-transform 0.3s;
-  transition: transform 0.3s;
-  transition: transform 0.3s, -webkit-transform 0.3s;
-  will-change: transform;
+  height: 0%;
+  background: #33464b;
+  transition: all 0.15s;
 }
 .slide__text-link:hover:before {
-  -webkit-transform: rotateX(0);
-          transform: rotateX(0);
+  height: 100%;
+ top: 0;
+
+}
+*/
+
+.slide__text-link:hover {
+  transform: scale(1.03);
+  
 }

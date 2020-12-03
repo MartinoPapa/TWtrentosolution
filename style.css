@@ -32,8 +32,9 @@ body {
     left: 10vw;
     height: 50px;
     width: 80vw;
-    border-top: 2px solid white;
-    border-bottom: 2px solid white;
+    border: 2px solid #8ea8c1;
+    border-left: none;
+    border-right: none;
     margin: 0;
     background-color: white;
 
@@ -41,20 +42,30 @@ body {
 
 #nav-left{
     position: absolute;
+    left: 0;
     height: 100%;
-    top: 0;
+    text-align: center;
 }
 
-#nav-left img{  
+#nav-left p{
+    text-transform: capitalize;
+    margin-left: 10px;
+    font-size: 22px;
+    color: #8ea8c1;
+}
+
+
+ .navbar img{  
+    position: absolute;
     user-select: none;
         -moz-user-select: none;
         -khtml-user-select: none;
         -webkit-user-select: none;
         -o-user-select: none;
-    height: 140%;
-    margin-top: -8%;
-    margin-left: -8%;
+    height: 150%;
+    top: -25%;
     transition: all 0.3s;
+    background-color: #fff;
 }
 
 #nav-right{
@@ -65,7 +76,7 @@ body {
 
 }
 
-#nav-right p{
+.navbar p{
     display: inline-flex;
     align-items: center;
     height: 100%;
@@ -98,13 +109,14 @@ body {
 
 #nav-right .normal:hover{
     border-color: #33464b;
+
 }
 
 #nav-right #prenota{
     text-transform: uppercase;
     background-color: #33464b;
     color: white;
-    transition: all 0.3s;
+    transition: all 0.15s;
     border: 2px solid #33464b;
 }
 
