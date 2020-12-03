@@ -47,9 +47,16 @@ body {
     text-align: center;
 }
 
+#nav-left img{
+    position: absolute;
+    height: 180%;
+    top: -40%;
+    left: -40%;
+}
+
 #nav-left p{
     text-transform: capitalize;
-    margin-left: 10px;
+    margin-left: 5px;
     font-size: 22px;
     color: #8ea8c1;
 }
@@ -124,23 +131,6 @@ body {
     background:#8ea8c1;
     border: 2px solid  #8ea8c1;
 }
-
-@media (max-width: 1250px) {
-    .navbar{
-        z-index: 5;
-        top: 0;
-        left: 0;
-
-        height: 50px;
-        width: 100vw;
-  }
-
-  #nav-right .extended{
-    padding-bottom: 17.2px;
-  }   
-
-}
-
 .hamburger{
     display: none;
 }
@@ -175,17 +165,22 @@ body {
     font-size: 15px;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1150px) {
     .extended{
         visibility: hidden;
+        padding-bottom: 17.2px;
     }
   .hamburger{
       display: inline;
   }
+
+  .navbar{
+    z-index: 5;
+    top: 0;
+    left: 0;
+
+    height: 50px;
+    width: 100vw;
 }
 
-@media (max-width: 380px) {
-    .home-section{
-        width: 101%;
-    }
 }
