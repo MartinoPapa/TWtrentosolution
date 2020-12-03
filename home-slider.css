@@ -63,7 +63,7 @@ svg {
 .slider-control.left {
   left: 0;
 }
-
+/*
 .slider-control svg{
   cursor: pointer;
   position: absolute;
@@ -86,23 +86,23 @@ svg {
 .slider-control.right svg {
   right: 0px;
 }
-
+*/
 .slider-pagi {
   position: absolute;
   z-index: 3;
-  left: 50%;
-  bottom: 2rem;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);  
   font-size: 0;
   list-style-type: none;
+  transform: rotateZ(90deg);
 }
 .slider-pagi__elem {
   position: relative;
   display: inline-block;
   vertical-align: top;
-  width: 2rem;
-  height: 2rem;
+  width: 2.1rem;
+  height: 2.1rem;
   margin: 0 0.5rem;
   border-radius: 50%;
   border: 2px solid #fff;
@@ -110,7 +110,7 @@ svg {
 
 }
 .slider-pagi__elem.active{
-  background: #fff;
+  background: #33464b;
 }
 
 .slider {
@@ -163,11 +163,11 @@ svg {
   background-image: url("img/Team.jpg");
 }
 .slide:nth-child(1) .slide__overlay-path {
-  fill: #33464b;
+  fill: #8ea8c1;
 }
 @media (max-width: 991px) {
   .slide:nth-child(1) .slide__text {
-    background-color:#33464bcc;
+    background-color:#8ea8c1cc;
   }
 }
 .slide:nth-child(2) {
@@ -178,11 +178,11 @@ svg {
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-2.jpg");
 }
 .slide:nth-child(2) .slide__overlay-path {
-  fill: #e1ccae;
+  fill: #33464b;
 }
 @media (max-width: 991px) {
   .slide:nth-child(2) .slide__text {
-    background-color: rgba(225, 204, 174, 0.8);
+    background-color:#33464bcc;
   }
 }
 .slide:nth-child(3) {
@@ -192,12 +192,12 @@ svg {
   left: -100%;
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-1.jpg");
 }
-.slide:nth-child(3) .slide__overlay-path {
-  fill: #adc5cd;
+.slide:nth-child(4) .slide__overlay-path {
+  fill: #e1d188;
 }
 @media (max-width: 991px) {
-  .slide:nth-child(3) .slide__text {
-    background-color: rgba(173, 197, 205, 0.8);
+  .slide:nth-child(4) .slide__text {
+    background-color: #e1d188cc;
   }
 }
 .slide:nth-child(4) {
@@ -207,12 +207,12 @@ svg {
   left: -150%;
   background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-4.jpg");
 }
-.slide:nth-child(4) .slide__overlay-path {
-  fill: #cbc6c3;
+.slide:nth-child(3) .slide__overlay-path {
+  fill: #e24c33;
 }
 @media (max-width: 991px) {
-  .slide:nth-child(4) .slide__text {
-    background-color: rgba(203, 198, 195, 0.8);
+  .slide:nth-child(3) .slide__text {
+    background-color: #e24c33cc;
   }
 }
 .slide__content {
@@ -308,7 +308,7 @@ svg {
   position: relative;
   padding: 0.5rem;
   cursor: pointer;
-  font-size: 2.3rem;
+  font-size: 2.5rem;
   transition: all 0.2s;
   text-decoration: underline;
   -webkit-perspective: 1000px;

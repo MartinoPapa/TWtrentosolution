@@ -41,7 +41,7 @@ $(document).ready(function() {
   function changeSlides(instant) {
     if (!instant) {
       animating = true;
-      manageControls();
+      //manageControls();
       $slider.addClass("animating");
       $slider.css("top");
       $(".slide").removeClass("active");
@@ -107,13 +107,13 @@ $(document).ready(function() {
     }
   });
   
-  $(document).on("click", ".slider-control", function() {
+  /*$(document).on("click", ".slider-control", function() {
     if ($(this).hasClass("left")) {
       navigateLeft();
     } else {
       navigateRight();
     }
-  });
+  });*/
   
   $(document).on("click", ".slider-pagi__elem", function() {
     curSlide = $(this).data("page");
