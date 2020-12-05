@@ -28,10 +28,10 @@ body {
 .navbar{
     z-index: 5;
     position: fixed;
-    top: 1.8vw;
-    left: 10vw;
+    top: 30px;
+    left: 7.5vw;
     height: 50px;
-    width: 80vw;
+    width: 85vw;
     border: 2px solid #8ea8c1;
     border-left: none;
     border-right: none;
@@ -52,13 +52,6 @@ body {
     height: 180%;
     top: -40%;
     left: -40%;
-}
-
-#nav-left p{
-    text-transform: capitalize;
-    margin-left: 5px;
-    font-size: 22px;
-    color: #8ea8c1;
 }
 
 
@@ -116,71 +109,100 @@ body {
 
 #nav-right .normal:hover{
     border-color: #33464b;
-
+    
 }
-
-#nav-right #prenota{
+.prenota{
     text-transform: uppercase;
     background-color: #33464b;
     color: white;
     transition: all 0.15s;
     border: 2px solid #33464b;
 }
-
-#nav-right #prenota:hover{
+.prenota:hover{
     background:#8ea8c1;
     border: 2px solid  #8ea8c1;
 }
-.hamburger{
-    display: none;
-}
 
-.hamburger{
-    position: absolute;
-    right: 5px;
-    top: 5px;
-    height: 40px;
-    width: 95px;
-    background: none;
-    cursor: pointer;
-    border: none;
-    outline: none;
-}
 
-.hamburger svg{
-    position: absolute;
-    right: 0;
-    top: 0;
-    height: 100%;
-    width: 40px;
-    fill: #623100;
-}
 
-.hamburger span{
-    position: absolute;
-    position: absolute;
-    right:  45px;
-    top: 10px;
-    width: 40px;
-    font-size: 15px;
-}
 
-@media (max-width: 1150px) {
-    .extended{
-        visibility: hidden;
-        padding-bottom: 17.2px;
-    }
-  .hamburger{
-      display: inline;
-  }
-
-  .navbar{
-    z-index: 5;
-    top: 0;
-    left: 0;
-
+#telephoneNav{
+    position: fixed;
     height: 50px;
-    width: 100vw;
+    width: 100%;
+    background-color: white;
+    z-index: 4;
+    text-align: center;
 }
 
+#telephoneNav p{
+    position: absolute;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    margin: 0;
+    left: 0;
+}
+
+#telephoneNav h1{
+    margin: 0;
+    padding: 0;
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    font-size: 19px;
+    color: #33464b;
+}
+
+
+#telephoneNav span{
+    display: inline-flex;
+    align-items: center;
+    height: 100%;
+    font-size: 18px;
+    padding: 0px 5px;
+    border: 0px;
+    margin: 0;
+}
+
+#telephoneNav img{
+    height: 100%;
+    right: 0;
+    position: absolute;
+}
+
+#menu{
+    padding: 0 10px;
+}
+
+#telephoneNav{
+    visibility: hidden;
+}
+
+@media (max-width: 900px) {
+    #nav-right span{
+        font-size: 2.15vw;
+    }
+
+    .navbar{
+        left: 3vw;
+        width: 94vw;
+    }
+}
+
+@media (max-width: 650px) {
+    #telephoneNav{
+        visibility: visible;
+    }
+
+    #computerNav{
+        visibility: hidden;
+    }
+
+}
+
+@media (max-width: 350px) {
+    #telephoneNav h1{
+        font-size: 5vw;
+    }
 }
