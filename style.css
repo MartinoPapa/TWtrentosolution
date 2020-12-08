@@ -49,9 +49,10 @@ body {
 
 #nav-left img{
     position: absolute;
-    height: 180%;
-    top: -40%;
-    left: -40%;
+    height: 160%;
+    top: -30%;
+    left: -30%;
+    border: 2px solid #8ea8c1;
 }
 
 
@@ -135,18 +136,25 @@ body {
     text-align: center;
 }
 
-#telephoneNav p{
+#telephoneNav button{
     position: absolute;
-    display: inline-flex;
-    align-items: center;
     height: 100%;
     margin: 0;
+    top: 0;
     left: 0;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    outline: none;
+    cursor: pointer;
 }
 
 #telephoneNav h1{
+    position: absolute;
+    left: 40px;
     margin: 0;
     padding: 0;
+    top: 0;
     display: inline-flex;
     align-items: center;
     height: 100%;
@@ -190,7 +198,7 @@ body {
     }
 }
 
-@media (max-width: 650px) {
+@media (max-width: 770px) {
     #telephoneNav{
         visibility: visible;
     }
@@ -201,8 +209,9 @@ body {
 
 }
 
-@media (max-width: 350px) {
+@media (max-width:340px) {
     #telephoneNav h1{
         font-size: 5vw;
     }
+
 }
