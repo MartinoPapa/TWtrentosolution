@@ -17,14 +17,6 @@ body {
     background:  #fff;
   }
 
-.home-section{
-    width: 100%;
-    height: 100%;
-    z-index: 4;
-    text-align: center;
-    color: #33464b;
-}
-
 .navbar{
     z-index: 5;
     position: fixed;
@@ -134,7 +126,7 @@ body {
     background-color: white;
     z-index: 6;
     text-align: center;
-    border-bottom: 1.5px solid #8ea8c1;
+    border-bottom: 2px solid #8ea8c1;
 }
 
 #telephoneNav button{
@@ -153,7 +145,7 @@ body {
 
 #telephoneNav h1{
     position: absolute;
-    left: 40px;
+    left: 45px;
     margin: 0;
     padding: 0;
     top: 0;
@@ -177,6 +169,7 @@ body {
 
 #telephoneNav img{
     height: 100%;
+    border-left: 2px solid #8ea8c1;
     right: 0;
     position: absolute;
 }
@@ -201,6 +194,10 @@ body {
 }
 
 @media (max-width: 770px) {
+    .scheda h1{
+        display: none;
+    }
+    
     #telephoneNav{
         visibility: visible;
     }
@@ -219,7 +216,7 @@ body {
 }
 
 #telephoneMenu{
-    position: absolute;
+    position: fixed;
     top: -100%;
     height: 100%;
     background: #fff;
@@ -236,10 +233,10 @@ body {
 
 .centered{
     position: absolute;
-    width: 100%;
+    left: 50%;
     top: 50%;
-  -ms-transform: translateY(-50%);
-  transform: translateY(-50%);
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
 }
 
 #telephoneMenu h1{
@@ -268,4 +265,62 @@ body {
 
 #svgClose{
     display: none;
+}
+
+
+#svgMen{
+    display: inline;
+}
+
+.home-section{
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+    text-align: center;
+    color: #33464b;
+}
+
+.scheda{
+    position: relative;
+    width: 90%;
+    height: auto;
+    max-width: 800px;
+}
+
+
+.scheda h1{
+    padding: 20px;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.colonne{
+    margin-top: 20px;
+    max-width: 100%;
+    height: auto;  
+}
+
+.colonna-tre{
+    width: 33%;
+    min-width: 200px;
+    height: 100%;
+    margin: 0;
+    padding: 10px;
+    display: inline-block;
+}
+
+.colonna-tre img{
+    max-width: 90%;
+}
+
+.colonna-tre p{
+    font-size: 20px;
+}
+
+.right *{
+    float: right;
+}
+
+.left *{
+    float: left;
 }
