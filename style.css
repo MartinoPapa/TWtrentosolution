@@ -386,3 +386,198 @@ body {
         box-shadow: 0px -7px 12px 0px rgba(142, 168, 193, 0.51);
     }
 }
+
+
+/*FINE FOOTER*/
+
+
+/* SEZIONE LAVORI*/
+
+#div_lavori {
+    /*background-color: #e24c33cc;*/
+    background-color: #33464bca;
+    position: relative;
+    width: 100%;
+    height: 300px;
+    text-align: center;
+}
+
+#div_lavori h1 {
+    position: relative;
+    top: 170px;
+    font-size: 70px;
+    color: #fff;
+}
+
+#div_presentazioneLavori {
+    position: relative;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    line-height: 40px;
+    border-bottom: 2px solid #33464bca;
+}
+
+
+/*Ordine colori errato (volontariamente)*/
+
+#div_pittura {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #e24c33cc;
+    margin-top: 40px;
+}
+
+#div_pulizie {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #e1d188cc;
+    margin-top: 40px;
+}
+
+#div_giardinaggio {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #8ea8c1cc;
+    margin-top: 40px;
+}
+
+#div_sx {
+    position: absolute;
+    left: 10%;
+    width: 30%;
+    /*background-color: #ffffffc4;*/
+    background-color: #ffffffda;
+    height: 90%;
+    top: 5%;
+    text-align: center;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+}
+
+#div_sx h2 {
+    font-size: 30px;
+    margin: 20px
+}
+
+#div_dx {
+    position: absolute;
+    /*background-color: #ffffff9f;*/
+    background-color: #ffffffb7;
+    right: 10%;
+    width: 50%;
+    height: 90%;
+    top: 5%;
+    line-height: 450px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+}
+
+#div_dx p {
+    font-size: 20px;
+    margin-left: 20px;
+    margin-right: 20px;
+    line-height: 1.5;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+#dx_testo {
+    position: absolute;
+    height: 350px;
+    width: 100%;
+    line-height: 450px;
+    /*allineamento verticale*/
+}
+
+#dx_contatti {
+    position: absolute;
+    height: 100px;
+    width: 100%;
+    bottom: 0px;
+    line-height: 20px;
+}
+
+.dx_info {
+    display: inline;
+    height: 60px;
+    /* equals max image height */
+    width: 100%;
+    white-space: nowrap;
+    text-align: middle;
+    margin: 1em 0;
+    padding-top: 0px;
+}
+
+.helper2 {
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+    padding-left: 5px;
+    font-size: 16px;
+}
+
+.loghi2 {
+    vertical-align: middle;
+    width: 30px;
+    height: 30px;
+    padding-top: 20px;
+}
+
+#imgLavoro {
+    position: relative;
+    height: 350px;
+}
+
+.content {
+    position: relative;
+    width: 100%;
+}
+
+#content1 a {
+    font-size: 16px;
+    color: #cc472f;
+    text-decoration: none;
+}
+
+#content2 a {
+    font-size: 16px;
+    color: #bdac60;
+    text-decoration: none;
+}
+
+#content3 a {
+    font-size: 16px;
+    color: #7e96ac;
+    text-decoration: none;
+}
+
+
+/*e24c33cc  e1d188cc  8ea8c1cc*/
+
+#c1 {
+    position: absolute;
+    width: 33.3%;
+    height: 100%;
+    text-align: center;
+}
+
+#c2 {
+    position: absolute;
+    width: 33.3%;
+    height: 100%;
+    left: 33.3%;
+}
+
+#c3 {
+    position: absolute;
+    width: 33.3%;
+    height: 100%;
+    left: 66.6%;
+}
+
+
+/* FINE SEZIONE LAVORI*/
