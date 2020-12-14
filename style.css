@@ -26,7 +26,6 @@ body {
     width: 85vw;
     border: 2px solid #8ea8c1;
     border-left: none;
-    border-right: none;
     margin: 0;
     background-color: white;
 
@@ -123,6 +122,7 @@ body {
     position: fixed;
     height: 50px;
     width: 100%;
+    top: 0;
     background-color: white;
     z-index: 6;
     text-align: center;
@@ -272,55 +272,178 @@ body {
     display: inline;
 }
 
+.home-section:nth-last-of-type(1) {
+    top: 100%;
+}
+
 .home-section{
+    position: absolute;
     width: 100%;
     height: 100%;
     z-index: 4;
     text-align: center;
     color: #33464b;
-}
-
-.scheda{
-    position: relative;
-    width: 90%;
-    height: auto;
-    max-width: 800px;
-}
-
-
-.scheda h1{
-    padding: 20px;
-    font-size: 25px;
-    text-transform: uppercase;
-}
-
-.colonne{
-    margin-top: 20px;
-    max-width: 100%;
-    height: auto;  
-}
-
-.colonna-tre{
-    width: 33%;
-    min-width: 200px;
-    height: 100%;
     margin: 0;
+    padding: 0;
+}
+
+
+
+.form * {
+    text-align: left;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    -moz-font-smoothing: antialiased;
+    -o-font-smoothing: antialiased;
+    font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+  }
+
+  #contatta{
+    width: 90%;
+    max-width: 700px;
+}
+  
+  .form {
+    margin: 0 auto;
+    position: relative;
+  }
+
+  #contact {
+    
+    background: #F9F9F9;
+    padding: 25px;
+    margin: 150px 0;
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+  }
+  
+  #contact *{
+    color: #33464b;
+  }
+
+  #contact h3 {
+    display: block;
+    font-size: 30px;
+    font-weight: 300;
+    margin-bottom: 10px;
+  }
+  
+  #contact h4 {
+    margin: 5px 0 15px;
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+  }
+  
+  fieldset {
+    border: medium none !important;
+    margin: 0 0 10px;
+    padding: 0;
+    width: 100%;
+  }
+  
+  #contact input[type="text"],
+  #contact input[type="email"],
+  #contact input[type="tel"],
+  #contact input[type="url"],
+  #contact textarea {
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin: 0 0 5px;
     padding: 10px;
-    display: inline-block;
-}
+  }
 
-.colonna-tre img{
-    max-width: 90%;
-}
+  #contact select{
+    width: 100%;
+    border: 1px solid #ccc;
+    background: #FFF;
+    margin-bottom: 5px;
+    padding: 10px;
+    padding-left: 6.5px;
+  }
 
-.colonna-tre p{
-    font-size: 20px;
-}
+  #servizio{
+    color: #888;
+  }
+  
+  #contact input[type="text"]:hover,
+  #contact input[type="email"]:hover,
+  #contact input[type="tel"]:hover,
+  #contact input[type="url"]:hover,
+  #contact select:hover,
+  #contact textarea:hover {
+    -webkit-transition: border-color 0.15s ease-in-out;
+    -moz-transition: border-color 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out;
+    border: 1px solid #aaa;
+  }
+  
+  #contact textarea {
+    height: 100px;
+    max-width: 100%;
+    resize: none;
+  }
+  
+  #contact button[type="submit"] {
+    cursor: pointer;
+    text-align: center;
+    width: 100%;
+    border: none;
+    background: #33464b;
+    color: #FFF;
+    margin: 0 0 5px;
+    padding: 10px;
+    font-size: 15px;
+  }
+  
+  #contact button[type="submit"]:hover {
+    background: #8ea8c1;
+    -webkit-transition: background 0.3s ease-in-out;
+    -moz-transition: background 0.3s ease-in-out;
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  #contact button[type="submit"]:active {
+    box-shadow: inset 0 1px 3px rgba(0, 0, 0, 0.5);
+  }
 
-.right *{
-    float: right;
-}
+  
+  #contact input:focus,
+  #contact select:focus,
+  #contact textarea:focus {
+    outline: 0;
+    border: 1px solid #8ea8c1;
+  }
 
-.left *{
-    float: left;
-}
+  #contact textarea{
+      font-family: Helvetica, Arial, sans-serif;
+  }
+
+  #servizio option:hover{
+    background-color: white!important;
+    outline: none;
+  }
+
+
+
+
+  ::-webkit-input-placeholder {
+    color: #888;
+  }
+  
+  :-moz-placeholder {
+    color: #888;
+  }
+  
+  ::-moz-placeholder {
+    color: #888;
+  }
+  
+  :-ms-input-placeholder {
+    color: #888;
+  }
