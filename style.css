@@ -606,14 +606,14 @@ body {
 }
 
 @media (max-width: 1100px) {
-    #div_sx {
+    /*#div_sx {
         left: 0%;
         width: 40%;
     }
     #div_dx {
         right: 0%;
         width: 60%;
-    }
+    }*/
     #c1 {
         width: 25%;
     }
@@ -703,15 +703,9 @@ body {
     #div_giardinaggio {
         height: 900px;
     }
-    #div_sx {
-        left: 0%;
-        width: 100%;
-    }
     #div_dx {
-        left: 0%;
         top: 480px;
         height: 400px;
-        width: 100%;
     }
     #div_dx p {
         margin-left: 20px;
