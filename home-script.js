@@ -133,13 +133,13 @@ $(document).ready(function() {
 });
 
 function OpenMenu() {
-    document.getElementById("telephoneMenu").style.display = "block";
+    document.getElementById("telephoneMenu").style.top = "0";
     document.getElementById("svgMen").style.display = "none";
     document.getElementById("svgClose").style.display = "inline";
 }
 
 function CloseMenu() {
-    document.getElementById("telephoneMenu").style.display = "none";
+    document.getElementById("telephoneMenu").style.top = "-100%";
     document.getElementById("svgClose").style.display = "none";
     document.getElementById("svgMen").style.display = "inline";
 }
