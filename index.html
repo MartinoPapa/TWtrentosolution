@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TW Trento Solution</title>
+    <link rel="icon" href="img/logoMurix.png">
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+    <link rel="stylesheet" href="./home-slider.css">
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js"></script>
+
+</head>
+
+<body>
+    <!-- partial:index.partial.html -->
+    <div class="navbar" id="computerNav">
+        <div id="nav-left">
+            <img src="img/logo.jpg">
+        </div>
+        <div id="nav-right">
+            <p>
+                <a href="#ancoraPittura" class="abarra"><span class="normal extended">Pittura</span></a>
+                <a href="#ancoraPulizie" class="abarra"><span class="normal extended">Pulizie</span></a>
+                <a href="#ancoraGiar" class="abarra"><span class="normal extended">Giardinaggio</span></a>
+                <a href="#ancoraCon" class="abarra"><span class="prenota extended">contatta</span></a>
+                <a class="abarra" href="tel:+393450716278"><span class="normal extended">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path
+                                d="M6.54 5c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51m9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19M7.5 3H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57-.1-.04-.21-.05-.31-.05-.26 0-.51.1-.71.29l-2.2 2.2c-2.83-1.45-5.15-3.76-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1z" />
+                        </svg>
+                    </span></a>
+                <a class="abarra" href="#ancoraCon"><span class="normal extended">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path
+                                d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z" />
+                        </svg>
+                    </span></a>
+            </p>
+        </div>
+    </div>
+
+    <div id="telephoneNav">
+        <div id="telephoneRight">
+            <a href="#ancoraCon"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z"/></svg></a>
+            <a href="tel:+393450716278"><svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24"><path d="M0 0h24v24H0V0z" fill="none"/><path d="M6.54 5c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51m9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19M7.5 3H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57-.1-.04-.21-.05-.31-.05-.26 0-.51.1-.71.29l-2.2 2.2c-2.83-1.45-5.15-3.76-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1z"/></svg></a>
+        </div>
+        
+        <button id="openMenu">
+            <svg id="svgClose" xmlns="http://www.w3.org/2000/svg" height="26" viewBox="0 0 24 24" width="26"
+                fill="#33464b">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path
+                    d="M19 6.41L17.59 5 12 10.59 6.41 5 5 6.41 10.59 12 5 17.59 6.41 19 12 13.41 17.59 19 19 17.59 13.41 12z" />
+            </svg>
+            <svg id="svgMen" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#33464b" width="26"
+                height="26">
+                <path d="M0 0h24v24H0z" fill="none" />
+                <path d="M3 18h18v-2H3v2zm0-5h18v-2H3v2zm0-7v2h18V6H3z" />
+            </svg>
+        </button>
+        <h1 id="titoloTelefono">TW Trento Solution</h1>
+
+    </div>
+
+    <div id="telephoneMenu">
+        <div class="centered">
+            <p><a href="#ancoraPittura" onclick="CloseMenu()">Pittura</a></p>
+            <p><a href="#ancoraPulizie" onclick="CloseMenu()">Pulizie</a></p>
+            <p><a href="#ancoraGiar" onclick="CloseMenu()">Giardinaggio</a></p>
+            <div id="iconeMenu">
+                <a href="tel:+393450716278"><span class="normal extended">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path
+                                d="M6.54 5c.06.89.21 1.76.45 2.59l-1.2 1.2c-.41-1.2-.67-2.47-.76-3.79h1.51m9.86 12.02c.85.24 1.72.39 2.6.45v1.49c-1.32-.09-2.59-.35-3.8-.75l1.2-1.19M7.5 3H4c-.55 0-1 .45-1 1 0 9.39 7.61 17 17 17 .55 0 1-.45 1-1v-3.49c0-.55-.45-1-1-1-1.24 0-2.45-.2-3.57-.57-.1-.04-.21-.05-.31-.05-.26 0-.51.1-.71.29l-2.2 2.2c-2.83-1.45-5.15-3.76-6.59-6.59l2.2-2.2c.28-.28.36-.67.25-1.02C8.7 6.45 8.5 5.25 8.5 4c0-.55-.45-1-1-1z" />
+                        </svg>
+                    </span></a>
+                <a href="#ancoraCon"><span class="normal extended">
+                        <svg xmlns="http://www.w3.org/2000/svg" height="24" viewBox="0 0 24 24" width="24">
+                            <path d="M0 0h24v24H0V0z" fill="none" />
+                            <path
+                                d="M22 6c0-1.1-.9-2-2-2H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6zm-2 0l-8 5-8-5h16zm0 12H4V8l8 5 8-5v10z" />
+                        </svg>
+                    </span></a>
+            </div>
+
+
+        </div>
+        <a href="#ancoraCon" onclick="CloseMenu()">
+            <h1>contatta</h1>
+        </a>
+    </div>
+
+    <div class="home-section">
+
+        <div class="slider-container">
+            <!--
+      <div class="slider-control left inactive"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"
+          fill="white">
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path d="M15.41 16.59L10.83 12l4.58-4.59L14 6l-6 6 6 6 1.41-1.41z" /></svg></div>
+      <div class="slider-control right"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="white">
+          <path d="M0 0h24v24H0V0z" fill="none" />
+          <path d="M8.59 16.59L13.17 12 8.59 7.41 10 6l6 6-6 6-1.41-1.41z" /></svg></div>
+      -->
+            <ul class="slider-pagi"></ul>
+            <div class="slider">
+                <div class="slide slide-0 active">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                        </svg>
+                        <div class="slide__text">
+                            <h2 class="slide__text-heading">Trento Solution</h2>
+                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore
+                                quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam
+                                minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                            <a class="slide__text-link">Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide-1 ">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                        </svg>
+                        <div class="slide__text">
+                            <h2 class="slide__text-heading">Pittura</h2>
+                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore
+                                quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam
+                                minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                            <a class="slide__text-link">Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide-2">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                        </svg>
+                        <div class="slide__text">
+                            <h2 class="slide__text-heading">Pulizie</h2>
+                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore
+                                quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam
+                                minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                            <a class="slide__text-link">Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="slide slide-3">
+                    <div class="slide__bg"></div>
+                    <div class="slide__content">
+                        <svg class="slide__overlay" viewBox="0 0 720 405" preserveAspectRatio="xMaxYMax slice">
+                            <path class="slide__overlay-path" d="M0,0 150,0 500,405 0,405" />
+                        </svg>
+                        <div class="slide__text">
+                            <h2 class="slide__text-heading">Giardinaggio</h2>
+                            <p class="slide__text-desc">Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                                Distinctio veniam minus illo debitis nihil animi facere, doloremque voluptate tempore
+                                quia. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio veniam
+                                minus illo debitis nihil animi facere, doloremque voluptate tempore quia.</p>
+                            <a class="slide__text-link">Scopri di più</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- partial -->
+        <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+        <script src="./home-script.js"></script>
+    </div>
+
+
+
+
+
+    <div id="AllPage">
+        <!--Sezione dei lavori-->
+
+        <h1 id="titoloServizi">SERVIZI</h1>
+        <div id="div_presentazioneLavori">
+            <h3>Abbiamo uno specialista per ogni tua esigenza
+            </h3>
+        </div>
+        <div id="div_pittura">
+            <div id="ancoraPittura" class="anchor"></div>
+
+            <div id="div_sx">
+                <h2>PITTURA</h2>
+                <img id="imgLavoro" src="img/pittura.jpg">
+            </div>
+            <div id="div_dx">
+                <div id="dx_testo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reiciendis nam dolor et incidunt
+                        harum, pariatur laboriosam non possimus odio deleniti earum, quam in veniam fugiat temporibus
+                        aspernatur aperiam sunt!</p>
+                </div>
+                <div id="dx_contatti">
+                    <div class="content" id="content1">
+                        <div class="dx_info" id="c1">
+                            <img class="loghi2" src="img/footer/alternate_email.svg"><span class="helper2"><a
+                                    href="#ancoraCon">Contatta</a></span>
+                        </div>
+                        <div class="dx_info" id="c2">
+                            <img class="loghi2" src="img/footer/phone.svg"><span class="helper2"><a
+                                    href="tel:+393450716278">+39
+                                    345 071 6278</a></span>
+                        </div>
+                        <div class="dx_info" id="c3">
+                            <img class="loghi2" src="img/footer/email.svg"><span class="helper2"><a
+                                    href="mailto:twtrentosolution@pec.it">twtrentosolution@pec.it</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="div_pulizie">
+            <div id="ancoraPulizie" class="anchor"></div>
+            <div id="div_sx">
+                <h2>PULIZIA</h2>
+                <img id="imgLavoro" src="img/pulizia.jpg">
+            </div>
+            <div id="div_dx">
+                <div id="dx_testo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reiciendis nam dolor et incidunt
+                        harum, pariatur laboriosam non possimus odio deleniti earum, quam in veniam fugiat temporibus
+                        aspernatur aperiam sunt!</p>
+                </div>
+                <div id="dx_contatti">
+                    <div class="content" id="content2">
+                        <div class="dx_info" id="c1">
+                            <img class="loghi2" src="img/footer/alternate_email.svg"><span class="helper2"><a
+                                    href="#ancoraCon">Contatta</a></span>
+                        </div>
+                        <div class="dx_info" id="c2">
+                            <img class="loghi2" src="img/footer/phone.svg"><span class="helper2"><a
+                                    href="tel:+393450716278">+39
+                                    345 071 6278</a></span>
+                        </div>
+                        <div class="dx_info" id="c3">
+                            <img class="loghi2" src="img/footer/email.svg"><span class="helper2"><a
+                                    href="mailto:twtrentosolution@pec.it">twtrentosolution@pec.it</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div id="div_giardinaggio">
+            <div id="ancoraGiar" class="anchor"></div>
+            <div id="div_sx">
+                <h2>GIARDINAGGIO</h2>
+                <img id="imgLavoro" src="img/giardinaggio.jpg">
+            </div>
+            <div id="div_dx">
+                <div id="dx_testo">
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Est reiciendis nam dolor et incidunt
+                        harum, pariatur laboriosam non possimus odio deleniti earum, quam in veniam fugiat temporibus
+                        aspernatur aperiam sunt!</p>
+                </div>
+                <div id="dx_contatti">
+                    <div class="content" id="content3">
+                        <div class="dx_info" id="c1">
+                            <img class="loghi2" src="img/footer/alternate_email.svg"><span class="helper2"><a
+                                    href="#ancoraCon">Contatta</a></span>
+                        </div>
+                        <div class="dx_info" id="c2">
+                            <img class="loghi2" src="img/footer/phone.svg"><span class="helper2"><a
+                                    href="tel:+393450716278">+39
+                                    345 071 6278</a></span>
+                        </div>
+                        <div class="dx_info" id="c3">
+                            <img class="loghi2" src="img/footer/email.svg"><span class="helper2"><a
+                                    href="mailto:twtrentosolution@pec.it">twtrentosolution@pec.it</a></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <!--FINE Sezione dei lavori-->
+
+
+        <div class="form">
+            <div id="ancoraCon" class="anchor"></div>
+            <form id="contact" action="" method="post">
+                <h3>Contatta</h3>
+                <h4>richiedi informazioni riguardanti i nostri servizi</h4>
+                <fieldset>
+                    <input id="nominativo" placeholder="Nominativo" type="text" tabindex="1" required autofocus>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Indirizzo email" type="email" tabindex="2" required>
+                </fieldset>
+                <fieldset>
+                    <input placeholder="Numero di telefono" type="tel" tabindex="3" pattern="[0-9]{10}"
+                        title="inserisci un numero di telefono valido" required>
+                </fieldset>
+                <fieldset>
+                    <select required id="servizio" value="ciao">
+                        <option disabled selected hidden>Servizio Richiesto</option>
+                        <option>Pittura</option>
+                        <option>Pulizie</option>
+                        <option>Giardinaggio</option>
+                        <option>Altro</option>
+                    </select>
+                </fieldset>
+                <fieldset>
+                    <textarea placeholder="Messaggio" tabindex="5" required></textarea>
+                </fieldset>
+                <fieldset>
+                    <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Invia</button>
+                </fieldset>
+            </form>
+        </div>
+
+        <br><br><br>
+        <br><br><br>
+        <br><br><br>
+        <!--FOOTER-->
+        <div id="footer">
+            <div id="container">
+                <div id="col1">
+                    <div id="webDesigner">
+                        <h1>Web designer</h1>
+                        <div class="frame">
+                            <img class="loghi" src="img/footer/email.svg"><span class="helper"><a
+                                    href="mailto:martino.papa.tn@gmail.com">martino.papa.tn@gmail.com</a></span>
+                        </div>
+                        <div class="frame">
+                            <img class="loghi" src="img/footer/email.svg"><span class="helper"><a
+                                    href="mailto:muraronicola@hotmail.com">muraronicola@hotmail.com</a></span>
+                        </div>
+                    </div>
+
+                </div>
+                <div id="col2">
+                    <h1>Per informazioni</h1>
+                    <div class="frame">
+                        <img class="loghi" src="img/footer/phone.svg"><span class="helper"><a
+                                href="tel:+393450716278">+39
+                                345 071 6278</a></span>
+                    </div>
+                    <div class="frame">
+                        <img class="loghi" src="img/footer/phone.svg"><span class="helper"><a
+                                href="tel:+393913512487">+39
+                                391 351 2487</a></span>
+                    </div>
+                    <div class="frame">
+                        <img class="loghi" src="img/footer/email.svg"><span class="helper"><a
+                                href="mailto:twtrentosolution@pec.it">twtrentosolution@pec.it</a></span>
+                    </div>
+                    <div class="frame">
+                        <img class="loghi" src="img/footer/location.svg"><span class="helper">Via San Pio X
+                            Trento</span>
+                    </div>
+                </div>
+                <div id="col3">
+                    <img id="logoFooter" src="./img/logo.jpg">
+                    <br><br><br><br>
+                    <a target="_blank" href="https://www.facebook.com/T-W-Trento-Solution-105918464621048/"><img
+                            id="face" src="img/footer/facebook.svg"></a>
+                    <a target="_blank" href="https://www.instagram.com/t.w.trentosolution/"><img id="insta"
+                            src="img/footer/instagram.svg"></a>
+                </div>
+            </div>
+        </div>
+        <!--FINE FOOTER-->
+    </div>
+</body>
+
+</html>
