@@ -186,16 +186,16 @@ svg {
 
 .slide:nth-child(2) .slide__bg {
     left: -50%;
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-2.jpg");
+    background-image: url("./img/slider/painting.jpg");
 }
 
 .slide:nth-child(2) .slide__overlay-path {
-    fill: #8ea8c1;
+    fill: #ED372F;
 }
 
 @media (max-width: 991px) {
     .slide:nth-child(2) .slide__text {
-        background-color: #8ea8c1cc;
+        background-color: #ED372Fcc;
     }
 }
 
@@ -205,16 +205,16 @@ svg {
 
 .slide:nth-child(3) .slide__bg {
     left: -100%;
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-1.jpg");
+    background-image: url("./img/slider/cleaning.jpg");
 }
 
 .slide:nth-child(4) .slide__overlay-path {
-    fill: #e1d188;
+    fill: #37AD5D;
 }
 
 @media (max-width: 991px) {
     .slide:nth-child(4) .slide__text {
-        background-color: #e1d188cc;
+        background-color: #37AD5Dcc;
     }
 }
 
@@ -224,16 +224,16 @@ svg {
 
 .slide:nth-child(4) .slide__bg {
     left: -150%;
-    background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/142996/3d-slider-4.jpg");
+    background-image: url("./img/slider/grass.jpg");
 }
 
 .slide:nth-child(3) .slide__overlay-path {
-    fill: #e24c33;
+    fill: #3E84B5;
 }
 
 @media (max-width: 991px) {
     .slide:nth-child(3) .slide__text {
-        background-color: #e24c33cc;
+        background-color: #3E84B5cc;
     }
 }
 

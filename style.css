@@ -20,15 +20,15 @@ body {
     background: #fff;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-#telephoneMenu p a{
+#telephoneMenu p a {
     color: #33464b;
 }
 
-#telephoneMenu h1 a{
+#telephoneMenu h1 a {
     color: #fff;
 }
 
@@ -36,9 +36,9 @@ a{
     position: absolute;
     transform: translateY(-25vh);
     height: 0;
-  }
+}
 
-.abarra{
+.abarra {
     display: inline-flex;
     align-items: center;
     cursor: pointer;
@@ -195,12 +195,12 @@ a{
     position: absolute;
 }
 
-#telephoneRight img{
+#telephoneRight img {
     height: 100%;
     display: inline-block;
 }
 
-#telephoneRight svg{
+#telephoneRight svg {
     height: 100%;
     display: inline-block;
 }
@@ -705,7 +705,7 @@ fieldset {
     position: relative;
     width: 100%;
     height: 500px;
-    background-color: #e24c33cc;
+    background-color: #ED372Fcc;
     margin-top: 40px;
 }
 
@@ -713,7 +713,7 @@ fieldset {
     position: relative;
     width: 100%;
     height: 500px;
-    background-color: #e1d188cc;
+    background-color: #3E84B5cc;
     margin-top: 40px;
 }
 
@@ -721,7 +721,7 @@ fieldset {
     position: relative;
     width: 100%;
     height: 500px;
-    background-color: #8ea8c1cc;
+    background-color: #37AD5Dcc;
     margin-top: 40px;
 }
 
@@ -820,19 +820,19 @@ fieldset {
 
 #content1 a {
     font-size: 16px;
-    color: #cc472f;
+    color: #ED372F;
     text-decoration: none;
 }
 
 #content2 a {
     font-size: 16px;
-    color: #bdac60;
+    color: #3E84B5;
     text-decoration: none;
 }
 
 #content3 a {
     font-size: 16px;
-    color: #7e96ac;
+    color: #37AD5D;
     text-decoration: none;
 }
 
@@ -1027,33 +1027,37 @@ fieldset {
         text-align: center;
     }
 }
+
+
 /* FINE SEZIONE LAVORI*/
 
-#telephoneMenu p, svg{
+#telephoneMenu p,
+svg {
     transition: all 0.3s;
 }
 
-#telephoneMenu p:hover, #telephoneMenu svg:hover{
+#telephoneMenu p:hover,
+#telephoneMenu svg:hover {
     transform: scale(1.05);
 }
 
-#iconeMenu{
+#iconeMenu {
     text-align: center;
 }
 
-#iconeMenu a{
+#iconeMenu a {
     padding: 10px;
 }
 
-#iconeMenu svg{
+#iconeMenu svg {
     height: 30px;
     width: 30px;
 }
 
 #iconeMenu a:nth-last-child(1) {
-    display:inline-block;
+    display: inline-block;
 }
 
 #iconeMenu a:nth-last-child(2) {
-    display:inline-block;
+    display: inline-block;
 }
