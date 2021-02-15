@@ -769,7 +769,7 @@ fieldset {
     position: absolute;
     height: 350px;
     width: 100%;
-    line-height: 450px;
+    line-height: 400px;
     /*allineamento verticale*/
 }
 
@@ -955,7 +955,7 @@ fieldset {
     }
 }
 
-@media (max-width: 700px) {
+@media (max-width: 730px) {
     #div_dx p {
         margin-left: 30px;
         margin-right: 30px;
@@ -970,6 +970,18 @@ fieldset {
     #c3 {
         width: 33.3%;
         left: 62%;
+    }
+    #dx_testo {
+        top: 0px;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 700px) {
+    #div_dx p {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 19px;
     }
 }
 
@@ -992,7 +1004,7 @@ fieldset {
         margin-right: 20px;
     }
     #dx_testo {
-        top: 10px;
+        top: 0px;
         line-height: normal;
     }
     #dx_contatti {
@@ -1014,7 +1026,48 @@ fieldset {
     }
 }
 
+@media (max-width: 500px) {
+    #div_dx p {
+        margin-left: 20px;
+        margin-right: 20px;
+        font-size: 18px;
+    }
+    #dx_testo {
+        top: 0px;
+        line-height: normal;
+    }
+}
+
+@media (max-width: 450px) {
+    #div_sx {
+        top: 20px;
+        height: 410px;
+    }
+    #div_dx {
+        top: 430px;
+        height: 450px;
+    }
+    #imgLavoro {
+        position: relative;
+        height: 320px;
+        width: 320px;
+    }
+}
+
 @media (max-width: 400px) {
+    #div_sx {
+        top: 20px;
+        height: 380px;
+    }
+    #div_dx {
+        top: 400px;
+        height: 480px;
+    }
+    #imgLavoro {
+        position: relative;
+        height: 300px;
+        width: 300px;
+    }
     #c2 {
         text-align: left;
     }
