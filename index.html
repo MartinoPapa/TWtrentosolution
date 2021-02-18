@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./home-slider.css">
     <link rel="stylesheet" href="./style.css">
     <script src="./script.js"></script>
+    <script type="text/javascript" src="https://cdn.jsdelivr.net/npm/emailjs-com@2/dist/email.min.js"></script>
 
 </head>
 
@@ -282,21 +283,21 @@
 
         <div class="form">
             <div id="ancoraCon" class="anchor"></div>
-            <form id="contact" action="" method="post">
+            <form id="contact" action="javascript:SendEmail()" method="post">
                 <h3>Contatta</h3>
                 <h4>richiedi informazioni riguardanti i nostri servizi</h4>
                 <fieldset>
                     <input id="nominativo" placeholder="Nominativo" type="text" tabindex="1" required autofocus>
                 </fieldset>
                 <fieldset>
-                    <input placeholder="Indirizzo email" type="email" tabindex="2" required>
+                    <input placeholder="Indirizzo email" id="email" type="email" tabindex="2" required>
                 </fieldset>
                 <fieldset>
-                    <input placeholder="Numero di telefono" type="tel" tabindex="3" pattern="[0-9]{10}" title="inserisci un numero di telefono valido" required>
+                    <input placeholder="Numero di telefono" id="telefono" type="tel" tabindex="3" pattern="[0-9]{10}" title="inserisci un numero di telefono valido" required>
                 </fieldset>
                 <fieldset>
-                    <select required id="servizio" value="ciao">
-                        <option disabled selected hidden>Servizio Richiesto</option>
+                    <select required id="servizio" onchange="SetColor()">
+                        <option value="">Servizio Richiesto</option>
                         <option>Pittura</option>
                         <option>Pulizie</option>
                         <option>Giardinaggio</option>
@@ -304,7 +305,7 @@
                     </select>
                 </fieldset>
                 <fieldset>
-                    <textarea placeholder="Messaggio" tabindex="5" required></textarea>
+                    <textarea placeholder="Messaggio" tabindex="5" id="messaggio" required></textarea>
                 </fieldset>
                 <fieldset>
                     <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Invia</button>
