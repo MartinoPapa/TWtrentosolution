@@ -1,5 +1,7 @@
 $(document).ready(function() {
 
+    window.location.href = window.location.href.split("#")[0] += "#ancoraHome";
+
     var $slider = $(".slider"),
         $slideBGs = $(".slide__bg"),
         diff = 0,
@@ -130,6 +132,7 @@ $(document).ready(function() {
         closed = !closed;
     });
 
+    
 });
 
 function OpenMenu() {
