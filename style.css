@@ -402,7 +402,7 @@ fieldset {
 #servizio {
     -webkit-appearance: menulist-button;
     color: #888;
-  }
+}
 
 #contact input[type="text"]:hover,
 #contact input[type="email"]:hover,

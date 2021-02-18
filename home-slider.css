@@ -353,6 +353,18 @@ svg {
     }
 }
 
+@media (max-width: 900px) {
+    .slide:nth-child(3) .slide__bg {
+        background-position-x: -100px;
+    }
+}
+
+@media (max-width: 700px) {
+    .slide:nth-child(3) .slide__bg {
+        background-position-x: -250px;
+    }
+}
+
 
 /*
 .slide__text-link:before {
