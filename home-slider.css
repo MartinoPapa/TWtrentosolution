@@ -237,6 +237,25 @@ svg {
     }
 }
 
+.slide:nth-child(5) {
+    left: 400%;
+}
+
+.slide:nth-child(5) .slide__bg {
+    left: -200%;
+    background-image: url("./img/slider/sgomberi.jpg");
+}
+
+.slide:nth-child(5) .slide__overlay-path {
+    fill: #C2A12C;
+}
+
+@media (max-width: 991px) {
+    .slide:nth-child(5) .slide__text {
+        background-color: #C2A12Ccc;
+    }
+}
+
 .slide__content {
     position: absolute;
     top: 0;
@@ -362,6 +381,30 @@ svg {
 @media (max-width: 700px) {
     .slide:nth-child(3) .slide__bg {
         background-position-x: -250px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .slide:nth-child(5) .slide__bg {
+        background-position-x: -250px;
+        background-position-y: 100px;
+        background-size: 180%;
+    }
+}
+
+@media (max-width: 850px) {
+    .slide:nth-child(5) .slide__bg {
+        background-position-x: -250px;
+        background-position-y: 100px;
+        background-size: 200%;
+    }
+}
+
+@media (max-width: 750px) {
+    .slide:nth-child(5) .slide__bg {
+        background-position-x: -320px;
+        background-position-y: 100px;
+        background-size: auto;
     }
 }
 

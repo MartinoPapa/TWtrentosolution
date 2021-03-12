@@ -515,16 +515,16 @@ fieldset {
     top: 15px;
 }
 
-#insta {
-    width: 40px;
-    height: 40px;
-    margin: 10px;
+#social2 {
+    width: 36px;
+    height: 36px;
+    margin: 18px;
 }
 
-#face {
-    width: 40px;
-    height: 40px;
-    margin: 10px;
+#social1 {
+    width: 36px;
+    height: 36px;
+    margin: 18px;
 }
 
 #footer h1 {
@@ -726,6 +726,14 @@ fieldset {
     margin-top: 40px;
 }
 
+#div_sgomberi {
+    position: relative;
+    width: 100%;
+    height: 500px;
+    background-color: #C2A12Ccc;
+    margin-top: 40px;
+}
+
 #div_sx {
     position: absolute;
     left: 10%;
@@ -837,6 +845,12 @@ fieldset {
     text-decoration: none;
 }
 
+#content4 a {
+    font-size: 16px;
+    color: #C2A12C;
+    text-decoration: none;
+}
+
 
 /*e24c33cc  e1d188cc  8ea8c1cc*/
 
@@ -918,6 +932,9 @@ fieldset {
     #div_giardinaggio {
         height: 800px;
     }
+    #div_sgomberi {
+        height: 800px;
+    }
     #div_sx {
         left: 2%;
         width: 96%;
@@ -994,6 +1011,9 @@ fieldset {
         height: 900px;
     }
     #div_giardinaggio {
+        height: 900px;
+    }
+    #div_sgomberi {
         height: 900px;
     }
     #div_dx {
